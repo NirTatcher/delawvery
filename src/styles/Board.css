@@ -1,0 +1,160 @@
+#delaw_logo{
+    width: 313px;
+    height: 54px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    
+
+}
+
+.content-wrapper{
+  width: 100%;
+ height: 90vh;
+ display: flex;
+ flex-direction: row-reverse;
+}
+
+.content{
+  flex-grow: 5;
+  display: flex;
+ 
+  flex-direction: column;
+ 
+ 
+
+  
+}
+.side{
+  border-left: 1px solid rgba(128, 128, 128, 0.233);
+  
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  height: 100%;
+  
+}
+.order-heading{
+  align-self: center;
+  font-size:18px;
+  margin-top: 35px;
+  /* width: 100%; */
+
+}
+.heading{
+  /* margin-top: 4%;
+  height: 10%; */
+  font-size:32px;
+
+  align-self: flex-end;
+  
+  
+}
+
+.inputs_wrapper{
+  display: flex;
+  width: 52%;
+  height: 35%;
+  align-self: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+
+tr{
+  display: flex;
+  justify-content: space-around;
+}
+table{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.headInputWrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+}
+
+.inputWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  
+}
+.inputLabel{
+  align-self: flex-end;
+  color: grey;
+}
+.inputsRow{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+}
+.num_of_orders_wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120px;
+  align-self: center;
+}
+
+
+.item_card{
+  align-self: flex-end;
+  display: flex;
+  /* margin-right: 25%; */
+  width: 80%;
+  flex-grow: 1;
+  max-height: 24%;
+  align-self: center;
+  border: 1px solid rgba(128, 128, 128, 0.233);
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+/* 
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+height: 60%;
+} */
+
+
+.item_card_details{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.item_header{
+  display: flex;
+  flex-direction: row;
+  /* width: 90%; */
+  align-items: center;
+}
+.iconsWrapper{
+  display: flex;
+  justify-self: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.item_h{
+  display: flex;
+  justify-self: right;
+  flex-direction: row;
+  flex-grow: 2;
+  justify-content: flex-end;
+}
+.item_content{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+}
