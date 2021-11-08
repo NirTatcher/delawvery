@@ -25,7 +25,7 @@ export default function Card(props) {
                     <div style={{ display: 'flex', flexDirection: 'row', alignSelf: 'flex-end' }}>
                         {props.personDetails.firstName}, {props.personDetails.lastName}
                     </div>
-                    {props.personDetails.date.split("-")[2] + "-" + props.personDetails.date.split("-")[1] + "-" + props.personDetails.date.split("-")[0]}
+                    {props.personDetails.date.split("-")[2] + "/" + props.personDetails.date.split("-")[1] + "/" + props.personDetails.date.split("-")[0]}
                 </div>
             </div>
         </div>
