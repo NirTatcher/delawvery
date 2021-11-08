@@ -63,8 +63,8 @@ export default function Content(props) {
                     <div style={{ justifyContent: 'flex-start' }} className="inputsRow">
                         <div className="inputWrapper">
                             <label className="inputLabel" >תאריך</label>
-                            <TextField type="date"  value={date} onChange={(e) => setDate(e.target.value)} sx={{ direction: 'rtl', }} id="outlined-basic" variant="outlined" />
-                            
+                            <TextField type="date" value={date} onChange={(e) => setDate(e.target.value)} sx={{ direction: 'rtl', }} id="outlined-basic" variant="outlined" />
+
                         </div>
                     </div>
                     <Button onClick={() => checkValues()} sx={{ width: '45%', height: '50px', alignSelf: 'flex-end', background: 'grey' }} variant="contained">{props.isEdit === "" ? 'הוספה' : 'עדכון'}</Button>
