@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Card from './Card'
 export default function Side(props) {
-    const firstName = useState("ניר")
-    const lastName = useState("טצ'ר")
-    const date = useState("19/11/1995")
+
     return (
         <div className="side">
           

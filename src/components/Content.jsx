@@ -5,17 +5,17 @@ export default function Content(props) {
     const [firstName, setFirstName] = useState("")
     const [lastName, setLastName] = useState("")
     const [date, setDate] = useState("")
-    useEffect(async () => {
-        let initializeValues = () => {
+    useEffect( () => {
+        async function initializeValues () {
             if (props.isEdit !== "") {
                 setFirstName(props.persons[props.isEdit].firstName)
                 setLastName(props.persons[props.isEdit].lastName)
                 setDate(props.persons[props.isEdit].date)
             }
         }
-        await initializeValues()
+         initializeValues()
         console.log(props);
-    }, [props.isEdit])
+    }, [props])
     const checkValues = () => {
         if (firstName === "") {
             alert("הוסף שם פרטי")

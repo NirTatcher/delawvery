@@ -17,7 +17,6 @@ function Board() {
     await setPersons(personsTemp.filter((o, i) => i !== index))
   }
   const getDetails = async (person) => {
-    let personsTemp = persons
     if(isEdit === "")
     setPersons([...persons, person])
     else
