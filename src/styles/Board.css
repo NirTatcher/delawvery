@@ -111,7 +111,7 @@ table{
   /* margin-right: 25%; */
   width: 80%;
   flex-grow: 1;
-  max-height: 24%;
+  max-height: 30%;
   align-self: center;
   border: 1px solid rgba(128, 128, 128, 0.233);
   border-radius: 30px;
@@ -157,4 +157,11 @@ height: 60%;
   flex-direction: column;
   text-align: right;
   justify-content: center;
+}
+
+.cardsWrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
