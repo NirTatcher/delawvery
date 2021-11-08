@@ -14,7 +14,9 @@ export default function Side(props) {
       </div>
       <div className="cardsWrapper">
         {props.persons.map((person, index) =>
+        <div className="cardWrapper" >
           <Card key={index} editPerson={props.editPerson} deletePerson={props.deletePerson} index={index} personDetails={{ firstName: person.firstName, lastName: person.lastName, date: person.date }} />
+          </div>
         )}
       </div>
     </div>
